@@ -1,38 +1,4 @@
-/*var enter=document.getElementById("button");
-var input=document.getElementById("userInput");
-var ul=document.querySelector("ul");
-var item = document.getElementsByTagName("li");
 
-function inputLength(){
-	return input.value.length;
-} 
-
-function listLength(){
-	return item.length;
-}
-
-function createListElement(){
-    var li=document.createElement("li");
-    li.appendChild(document.createTextNode(input.value));
-    ul.appendChild(li);
-    input.value="";
-    function crossOut() {
-		li.classList.toggle("done");
-	}
-        li.addEventListener("click",crossOut);
-        
-        
-function addListAfterClick(){
-	if (inputLength() > 0) { //makes sure that an empty input field doesn't create a li
-		createListElement();
-	}
-}
-
-}
-
-enter.addEventListener("click",addListAfterClick);
-
-*/
 var enterButton = document.getElementById("button");
 var input = document.getElementById("userInput");
 var ul = document.querySelector("ul");
